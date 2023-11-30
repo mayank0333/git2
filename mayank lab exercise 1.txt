@@ -1,0 +1,67 @@
+Name- Mayank Agrawal
+course - pgdbda
+Lab exercise 1 of Python
+
+
+
+Que - 1 
+a = int(input('R =  '))
+a = 3.14*a**2
+print ('area = ',a)
+
+Que 2
+f = int(input('enter temperature in fahrenheit = '))
+f = (f-32)*5/9
+print ('temperature in celcius is= ',f)
+
+Que 3
+a = int(input('enter the 1st number = '))
+b = int(input('enter the 2nd number = '))
+result = a+b
+print ('addition of given number',result)
+c = int(input('enter the 1st number = '))
+d = int(input('enter the 2nd number = '))
+res = c-d
+print ('substraction of given number',res)
+e = int(input('enter the 1st number = '))
+f = int(input('enter the 2nd number = '))
+rslt = e*f
+print ('multiplication of two number ',rslt)
+g = int(input('enter the 1st number = '))
+h = int(input('enter the 2nd number = '))
+re = g/h
+print ('division of two number ',re)
+
+Que 4
+import math
+y = int(input('enter the number = '))
+y = math.sqrt(y)
+print ('square root is',y)
+
+Que 5 
+a = int(input('enter the a ='))
+b = int(input('enter the b ='))
+c = int(input('enter the c ='))
+d = (b**2) - (4*a*c)
+result1 = (-b -cmath.sqrt(d)) / 2 * a
+result2 = (-b +cmath.sqrt(d)) / 2 * a
+print (f"solution of {a}x**2 + {b}x + {c} is: ")
+print(result1)
+print(result2)
+
+Que 6 
+import math
+a = int(input('enter the 1st side = '))
+b = int(input('enter the 2nd side = '))
+c = int(input('enter the 3rd side = '))
+s = a+b+c/2
+area = math.sqrt(s*(s-a)*(s-b)*(s-c))
+print ('area of triangle is ',area)
+
+Que 8
+print (''' Twinkle, Twinkle, little star,\n''' '''\t How I wonder what you are!\n''' 
+      '''\t\t Up above the world so high\n''' '''\t\t Like a diamond in the sky.\n'''
+      'Twinkle, Twinkle, little star,\n' '\t How I wonder what you are')
+
+Que 9
+print ('Name - Mayank Agrawal\nage - 27\nAddress - Chhatarpur, Madhya Pradesh')
